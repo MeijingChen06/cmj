@@ -19,6 +19,7 @@
 % 文档封面专用标题，支持封面标题换行，使用 '\\' 命令换行
 \CoverTitle{四川大学学位论文}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%作者信息%%%%%%%%%%%%%%%%%%%%%%%%%%
 \author{陈美静}
 \ENGauthor{Meijing Cheng}
 \accomplishdate{2026年6月}
@@ -38,6 +39,8 @@
 \maketitle
 \frontmatter\pagenumbering{Roman}\pagestyle{fancy}\makechaptertitlecenter
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%摘要符号%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 包含摘要
 \include{Chapters/0_0_Abstract}
 % 包含缩略词表
@@ -48,10 +51,14 @@
 \maketoc
 % 设置论文正文部分的页码、页眉等
 \mainmatter\pagenumbering{arabic}\pagestyle{fancy}\makechaptertitleleft
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%章节%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 包含第一章、第二章等等
-\include{Chapters/Introduction}
-\include{Chapters/2_Using}
-\include{Chapters/3_Realization}
+\include{Chapters/cha1}
+\include{Chapters/cha2}
+\include{Chapters/cha3}
+\include{Chapters/cha4}
+\include{Chapters/cha5}
 % 设置论文正文后的式样
 \backmatter\makechaptertitlecenter
 % 参考文献
